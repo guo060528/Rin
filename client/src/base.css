@@ -32,21 +32,16 @@
   
     .t-secondary {
       @apply text-neutral-500 dark:text-neutral-200;
-    }
-   /* 修改前 */
+    } 
+    
   /* .wauto {
    @apply w-full md:w-11/12 lg:w-10/12 xl:w-8/12 2xl:w-6/12 duration-300;
  } */
 
- /* 修改后 */
-   .wauto {
-  /* 
-     w-11/12: 在小屏幕上保留两边一点空隙
-     max-w-6xl: 在大屏幕上最大限制为 1152px (约等于标准 A4 纸横放的视觉感)
-     mx-auto: 确保自己在容器中居中 (保险起见加上)
-  */
-  @apply w-11/12 max-w-6xl mx-auto duration-300;
-  }
+
+    .wauto {
+     @apply w-11/12 max-w-6xl mx-auto duration-300;
+    }
   
     .writeauto {
       @apply w-full md:w-7/12 lg:w-8/12 duration-300;
